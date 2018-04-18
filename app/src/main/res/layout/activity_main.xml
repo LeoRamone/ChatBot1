@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.leonardo_soares.chatbot1.MainActivity">
+
+    <Button
+        android:id="@+id/btn_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/siplancontrol"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="90sp"
+        android:text="@string/lbl_nome"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/txt_nome"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="1"
+        android:inputType="textPersonName"
+        android:layout_marginTop="15dp"
+        android:selectAllOnFocus="true"
+        android:singleLine="false"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/lbl_email"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress"
+        />
+
+    <Button
+        android:id="@+id/btn_enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/colorLetter"
+        android:background="@color/colorPrimary"
+        android:text="@string/lbl_enviar"
+        android:onClick="enviarUsu"
+
+        />
+
+
+
+</LinearLayout>
